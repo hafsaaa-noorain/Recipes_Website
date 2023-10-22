@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Single Recipe</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <!-- nav  -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <h1>RelishingRecipes</h1>
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> Home </a>
+        <a href="about.html" class="nav-link"> About </a>
+        <a href="tags.html" class="nav-link"> Tags </a>
+        <a href="recipes.html" class="nav-link"> Recipes </a>
+
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn"> Contact </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end of nav -->
+  <main class="page">
+    <div class="recipe-page">
+      <section class="recipe-hero">
+        <img src="./assets/recipes/recipe-5.jpg" class="img recipe-hero-img" />
+        <article class="recipe-info">
+          <h2>Apple Pie</h2>
+          <p>
+            I remember coming home sullen one day because we'd lost a softball game. Grandma, in her wisdom, suggested
+            that maybe a slice of hot apple pie would make me feel better. She was right. —Maggie Greene, Granite Falls,
+            Washington
+          </p>
+          <div class="recipe-icons">
+            <article>
+              <i class="fas fa-clock"></i>
+              <h5>prep time</h5>
+              <p>30 min.</p>
+            </article>
+            <article>
+              <i class="far fa-clock"></i>
+              <h5>cook time</h5>
+              <p>15 min.</p>
+            </article>
+            <article>
+              <i class="fas fa-user-friends"></i>
+              <h5>serving</h5>
+              <p>6 servings</p>
+            </article>
+          </div>
+          <p class="recipe-tags">
+            Tags : <a href="tag-template.html">lemon</a>
+            <a href="tag-template.html">butter</a>
+            <a href="tag-template.html">vanilla</a>
+            <a href="tag-template.html">sugar</a>
+          </p>
+        </article>
+      </section>
+      <!-- content -->
+      <section class="recipe-content">
+        <article>
+          <h4>instructions</h4>
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 1</p>
+              <div></div>
+            </header>
+            <p>
+              Preheat oven to 375°. On a lightly floured surface, roll half the dough to a 1/8-in.-thick circle;
+              transfer to a 9-in. pie plate. Chill while preparing filling. In a small bowl, combine sugars, flour and
+              spices. In a large bowl, toss apples with lemon juice. Add sugar mixture; toss to coat. Add filling to
+              crust; dot with butter.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 2</p>
+              <div></div>
+            </header>
+            <p>
+              Roll remaining dough to a 1/8-in.-thick circle. Place over filling. Trim, seal and flute edge. Cut slits
+              in top. Beat egg white until foamy; brush over crust. If desired, sprinkle with turbinado sugar and ground
+              cinnamon.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+          <!-- single instruction -->
+          <div class="single-instruction">
+            <header>
+              <p>step 3</p>
+              <div></div>
+            </header>
+            <p>
+              Bake on the lowest rack 60-70 minutes, until crust is golden brown and filling is bubbly, covering with
+              foil halfway if crust begins to get too dark. Cool on a wire rack. If desired, serve with ice cream and
+              caramel sauce.
+            </p>
+          </div>
+          <!-- end of single instruction -->
+        </article>
+        <article class="second-column">
+          <div>
+            <h4>ingredients</h4>
+            <p class="single-ingredient">1 1/2 cups dry pancake mix</p>
+            <p class="single-ingredient">1/2 cup flax seed meal</p>
+            <p class="single-ingredient">1 cup skim milk</p>
+          </div>
+          <div>
+            <h4>tools</h4>
+            <p class="single-tool">Hand Blender</p>
+            <p class="single-tool">Large Heavy Pot With Lid</p>
+            <p class="single-tool">Measuring Spoons</p>
+            <p class="single-tool">Measuring Cups</p>
+          </div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">RelishingRecipes</span>
+    </p>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
